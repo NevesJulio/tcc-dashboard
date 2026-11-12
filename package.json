@@ -11,7 +11,8 @@
     "predev": "node scripts/generate-mural.mjs",
     "prebuild": "node scripts/generate-mural.mjs",
     "pretest": "node scripts/generate-mural.mjs",
-    "mural:import": "node scripts/import-mural.mjs"
+    "mural:import": "node scripts/import-mural.mjs",
+    "research:sync": "node scripts/sync-research.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.0",

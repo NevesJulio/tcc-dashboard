@@ -1,0 +1,100 @@
+{
+  "configs": [
+    {
+      "file": "configs/experiments/anchor-cross-attention-10s.yaml",
+      "name": "anchor_cross_attention_10s"
+    },
+    {
+      "file": "configs/experiments/anchor-cross-attention-generation-10s.yaml",
+      "name": "anchor_cross_attention_10s"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-corrupted-context.yaml",
+      "name": "full_signal_overfit_corrupted_context"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-dense-tokens-generation.yaml",
+      "name": "full_signal_overfit_dense_tokens_generation"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-dense-tokens.yaml",
+      "name": "full_signal_overfit_dense_tokens"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-one-normal.yaml",
+      "name": "full_signal_overfit_one_normal"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-prefix-generation.yaml",
+      "name": "full_signal_overfit_prefix_generation"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-scheduled-sampling-generation.yaml",
+      "name": "full_signal_overfit_scheduled_sampling_generation"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-scheduled-sampling.yaml",
+      "name": "full_signal_overfit_scheduled_sampling"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-time-aware-generation.yaml",
+      "name": "full_signal_overfit_time_aware_generation"
+    },
+    {
+      "file": "configs/experiments/full-signal-overfit-time-aware.yaml",
+      "name": "full_signal_overfit_time_aware"
+    },
+    {
+      "file": "configs/experiments/full-signal-text-to-ecg-diagnostic.yaml",
+      "name": "full_signal_text_to_ecg_diagnostic"
+    },
+    {
+      "file": "configs/experiments/lead-conditioned-transformer-10s.yaml",
+      "name": "lead_conditioned_transformer_10s"
+    },
+    {
+      "file": "configs/experiments/random-anchor-conditioning-10s.yaml",
+      "name": "random_anchor_conditioning_10s"
+    },
+    {
+      "file": "configs/experiments/random-anchor-generation-10s.yaml",
+      "name": "random_anchor_conditioning_10s"
+    },
+    {
+      "file": "configs/experiments/single-lead-transformer-ecg-to-text-10s.yaml",
+      "name": "single_lead_transformer_ecg_to_text_10s"
+    },
+    {
+      "file": "configs/experiments/single-lead-transformer-general-30s.yaml",
+      "name": "single_lead_transformer_general_30s"
+    },
+    {
+      "file": "configs/experiments/single-lead-transformer-overfit-one.yaml",
+      "name": "single_lead_transformer_overfit_one"
+    },
+    {
+      "file": "configs/experiments/single-lead-transformer-random-windows-10s.yaml",
+      "name": "single_lead_transformer_random_windows_10s"
+    },
+    {
+      "file": "configs/experiments/vqvae-shared-all-leads-x32.yaml",
+      "name": "vqvae_shared_all_leads_x32"
+    },
+    {
+      "file": "configs/experiments/vqvae-single-lead-ii-x16.yaml",
+      "name": "vqvae_single_lead_ii_x16"
+    },
+    {
+      "file": "configs/experiments/vqvae-single-lead-ii-x32.yaml",
+      "name": "vqvae_single_lead_ii_x32"
+    },
+    {
+      "file": "configs/experiments/vqvae-single-lead-ii-x8.yaml",
+      "name": "vqvae_single_lead_ii_x8"
+    },
+    {
+      "file": "configs/experiments/vqvae-single-lead-ii.yaml",
+      "name": "vqvae_single_lead_ii_baseline"
+    }
+  ]
+}

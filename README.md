@@ -92,3 +92,20 @@ npm run mural:import -- "/caminho/para/ecglab-mural-backup.json"
 O comando extrai as fotos do backup para `public/images/mural/` e registra sua ordem em `photos.json`. Não apaga arquivos já existentes. Reimportar o mesmo backup reutiliza os mesmos arquivos. Essas fotos passam a ser públicas após o push/deploy. Fotografias já publicadas não ficam duplicadas nos rascunhos importados desse mesmo backup. Novas imagens publicadas são incorporadas mesmo quando há um mural local salvo; fotos de arquivos removidos do projeto deixam de aparecer após o deploy, exceto cópias independentes salvas como rascunho.
 
 As fotos locais são reduzidas para até 1.600 px, salvas em IndexedDB e ficam disponíveis no mesmo navegador, perfil e endereço. **Backup do mural** guarda as imagens e a ordem. **Restaurar backup** valida e pede confirmação antes de substituir a cópia local. Backups antigos continuam aceitos, mas suas frases e legendas não aparecem no mural. Limpar os dados do navegador remove os rascunhos. O backup do mural é independente das avaliações da banca.
+
+## Atualizar o catálogo da pesquisa
+
+Para reler as configurações do repositório local do TCC:
+
+```bash
+npm run research:sync -- "/home/julio-neves/Área de trabalho/TCC/VQ-VAE-ECG-main"
+```
+
+O comando atualiza `src/data/research-catalog.json`, exibido na aba Experimentos.
+Exporta somente nomes e caminhos relativos das configurações em `configs/experiments/`;
+não lê exames, laudos nem checkpoints. A lista é uma fotografia da última sincronização,
+não uma consulta em tempo real. Para atualizar o site, publique as alterações pelo fluxo
+normal de commit e push para `main`.
+
+Os quatro cartões destacados em `src/data/project.ts` descrevem configurações reais,
+mas sua existência não comprova execução. Métricas ainda não são importadas.

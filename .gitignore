@@ -2,3 +2,6 @@ node_modules/
 dist/
 *.tsbuildinfo
 .DS_Store
+
+# Manifesto de imagens reconstruído antes do dev/build/test
+src/data/muralPhotos.generated.json

@@ -1,7 +1,7 @@
 import type {DocumentLink,Task} from '../types';
 export const project = {title:'Representações discretas de sinais de ECG',subtitle:'Tokenização de eletrocardiogramas com VQ-VAE e Transformers para investigar classificação, geração de laudos e síntese de ECG a partir de texto.',author:'Júlio Neves',advisor:'Prof. Ricardo Alexsandro de Medeiros Valentim',institution:'Universidade Federal do Rio Grande do Norte',status:'Em desenvolvimento · a confirmar'};
 export const documents:DocumentLink[] = [
-{title:'Manuscrito do TCC',category:'Escrita',description:'Texto principal da pesquisa no Google Docs.',url: "https://docs.google.com/document/d/1qVVR9nwBiDmsZ6LBw7mKKl1xCG6LXeFD4vWkl6YfAxA/edit?tab=t.0"},
+{title:'Manuscrito do TCC',category:'Escrita',description:'Texto principal da pesquisa no Google Docs.',url: "https://docs.google.com/document/d/1PHOYsxLsHA7Za631PdYvEgKwxxWn6kdx49y9At6CoL4/edit?tab=t.0"},
 {title:'Artigos de referência',category:'Bibliografia',description:'Leituras sobre VQ-VAE, ECG e Transformers.',url:null},
 {title:'Repositório da pesquisa',category:'Código',description:'Código dos modelos e processamento de dados.',url:'https://github.com/NevesJulio/VQ-VAE-ECG'},
 {title:'Resultados experimentais',category:'Experimentos',description:'Métricas, figuras e registros dos experimentos.',url:null},

@@ -109,3 +109,16 @@ normal de commit e push para `main`.
 
 Os quatro cartões destacados em `src/data/project.ts` descrevem configurações reais,
 mas sua existência não comprova execução. Métricas ainda não são importadas.
+
+## Pesquisadores e candidatura Max Planck
+
+A seção **Pesquisadores** reúne os candidatos à banca e os três fellows em consideração
+para a candidatura Max Planck. Use os filtros **Banca do TCC** e **Candidatura Max Planck**,
+ou o atalho na visão geral. A busca aceita nome, instituição, cidade, área e tag, sem
+diferenciar acentos. Os filtros combinam com país, área e favoritos.
+
+Os perfis ficam em `src/data/researchers.ts`. O campo `tags` permite que um pesquisador
+pertença a mais de uma lista; `links` contém atalhos rotulados para fontes, grupos e
+publicações. A tag de candidatura representa a seleção pessoal do autor. Os vínculos
+institucionais são descritos individualmente. `verifiedOn` registra a consulta das fontes.
+Favoritos e notas continuam locais e compatíveis com os arquivos JSON anteriores.

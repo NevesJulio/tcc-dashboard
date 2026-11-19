@@ -1,4 +1,4 @@
-export interface Researcher { id:string; name:string; institution:string; country:string; city:string; areas:string[]; bio:string; relevance:string; score:number; website:string; image?:string; lattes?:string }
+export interface Researcher { id:string; name:string; institution:string; country:string; city:string; areas:string[]; tags:string[]; bio:string; relevance:string; score?:number; website:string; image?:string; lattes?:string; links?:{label:string;url:string}[]; verifiedOn?:string }
 export interface Evaluation { favorite:boolean; notes:string }
 export type Evaluations = Record<string, Evaluation>;
 export type TaskStatus = 'A fazer' | 'Em andamento' | 'Concluído';
